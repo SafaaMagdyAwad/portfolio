@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MindUp - Contact Us</title>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#30e87a",
+                        "background-light": "#f6f8f7",
+                        "background-dark": "#112117",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display min-h-screen flex flex-col overflow-x-hidden">
+<!-- Navbar -->
+<nav class="sticky top-0 z-50 border-b border-[#29382f] bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md px-6 py-4">
+<div class="max-w-[1280px] mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3 text-gray-900 dark:text-white cursor-pointer hover:opacity-80 transition-opacity">
+<div class="size-8 text-primary">
+<svg class="w-full h-full" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<a href="index.html">
+    <h2 class="text-xl font-bold tracking-tight">MindUp</h2>
+</a>
+</div>
+<div class="hidden md:flex items-center gap-8">
+
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium text-sm transition-colors" href="index.html#about">About</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium text-sm transition-colors" href="index.html#projects">Projects</a>
+</div>
+<a href="index.html" class="hidden md:flex bg-primary hover:bg-primary/90 text-[#111814] px-6 py-2.5 rounded-full text-sm font-bold transition-transform active:scale-95 shadow-[0_0_15px_rgba(48,232,122,0.3)]">
+                Home
+            </a>
+<!-- Mobile Menu Icon -->
+<button class="md:hidden text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="flex-grow w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
+<div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+<!-- Left Column: Header & Contact Info -->
+<div class="flex flex-col gap-8 lg:sticky lg:top-32">
+<div class="space-y-4">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-wider w-fit">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+                        Available for new projects
+                    </span>
+<h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 dark:text-white leading-[1.1] tracking-tight">
+                        Let's build something <span class="text-primary">amazing</span> together.
+                    </h1>
+<p class="text-lg text-gray-600 dark:text-[#9db8a8] max-w-lg leading-relaxed">
+                        Have a project in mind? We'd love to hear about it. Fill out the form or reach out directly via email or phone.
+                    </p>
+</div>
+<div class="space-y-6 mt-4">
+<!-- Email Card -->
+<a class="group flex items-center gap-5 p-5 rounded-2xl bg-white dark:bg-[#1c2620]/50 border border-gray-200 dark:border-[#29382f] hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-lg dark:hover:shadow-[0_0_20px_rgba(48,232,122,0.1)]" href="mailto:safaa.magdy.awad@gmail.com">
+<div class="flex items-center justify-center size-12 rounded-full bg-gray-100 dark:bg-[#29382f] text-gray-900 dark:text-white group-hover:bg-primary group-hover:text-[#111814] transition-colors">
+<span class="material-symbols-outlined text-2xl">mail</span>
+</div>
+<div>
+<p class="text-sm font-medium text-gray-500 dark:text-[#9db8a8]">Email us at</p>
+<p class="text-lg font-bold text-gray-900 dark:text-white">safaa.magdy.awad@gmail.com</p>
+</div>
+</a>
+<!-- Phone Card -->
+<a class="group flex items-center gap-5 p-5 rounded-2xl bg-white dark:bg-[#1c2620]/50 border border-gray-200 dark:border-[#29382f] hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-lg dark:hover:shadow-[0_0_20px_rgba(48,232,122,0.1)]" href="tel:+201067605447">
+<div class="flex items-center justify-center size-12 rounded-full bg-gray-100 dark:bg-[#29382f] text-gray-900 dark:text-white group-hover:bg-primary group-hover:text-[#111814] transition-colors">
+<span class="material-symbols-outlined text-2xl">call</span>
+</div>
+<div>
+<p class="text-sm font-medium text-gray-500 dark:text-[#9db8a8]">Call us at</p>
+<p class="text-lg font-bold text-gray-900 dark:text-white">+201067605447</p>
+</div>
+</a>
+<!-- Socials -->
+<div class="pt-4 flex gap-4">
+<a class="size-12 rounded-full border border-gray-200 dark:border-[#29382f] flex items-center justify-center text-gray-600 dark:text-[#9db8a8] hover:bg-primary hover:text-[#111814] hover:border-primary transition-all duration-300" href="#">
+<span class="material-symbols-outlined">code</span> <!-- Placeholder for GitHub -->
+</a>
+<a class="size-12 rounded-full border border-gray-200 dark:border-[#29382f] flex items-center justify-center text-gray-600 dark:text-[#9db8a8] hover:bg-primary hover:text-[#111814] hover:border-primary transition-all duration-300" href="#">
+<span class="material-symbols-outlined">work</span> <!-- Placeholder for LinkedIn -->
+</a>
+<a class="size-12 rounded-full border border-gray-200 dark:border-[#29382f] flex items-center justify-center text-gray-600 dark:text-[#9db8a8] hover:bg-primary hover:text-[#111814] hover:border-primary transition-all duration-300" href="#">
+<span class="material-symbols-outlined">public</span> <!-- Placeholder for Twitter/X -->
+</a>
+</div>
+</div>
+</div>
+<!-- Right Column: Contact Form -->
+<div class="bg-white dark:bg-[#1c2620] p-6 sm:p-8 rounded-3xl border border-gray-200 dark:border-[#29382f] shadow-xl dark:shadow-none">
+<form class="flex flex-col gap-6">
+<div class="flex flex-col sm:flex-row gap-6">
+<label class="flex flex-col flex-1 group">
+<span class="text-gray-900 dark:text-white text-sm font-bold mb-2 ml-1">Name</span>
+<div class="relative">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">person</span>
+</span>
+<input class="w-full h-14 pl-12 pr-4 bg-gray-50 dark:bg-[#111814] border border-gray-200 dark:border-[#3c5345] rounded-xl focus:border-primary dark:focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all text-gray-900 dark:text-white placeholder:text-gray-400 dark:placeholder:text-[#9db8a8]/50" placeholder="Jane Doe" type="text"/>
+</div>
+</label>
+<label class="flex flex-col flex-1 group">
+<span class="text-gray-900 dark:text-white text-sm font-bold mb-2 ml-1">Email</span>
+<div class="relative">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">alternate_email</span>
+</span>
+<input class="w-full h-14 pl-12 pr-4 bg-gray-50 dark:bg-[#111814] border border-gray-200 dark:border-[#3c5345] rounded-xl focus:border-primary dark:focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all text-gray-900 dark:text-white placeholder:text-gray-400 dark:placeholder:text-[#9db8a8]/50" placeholder="jane@example.com" type="email"/>
+</div>
+</label>
+</div>
+<label class="flex flex-col group">
+<span class="text-gray-900 dark:text-white text-sm font-bold mb-2 ml-1">Subject</span>
+<div class="relative">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">topic</span>
+</span>
+<input class="w-full h-14 pl-12 pr-4 bg-gray-50 dark:bg-[#111814] border border-gray-200 dark:border-[#3c5345] rounded-xl focus:border-primary dark:focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all text-gray-900 dark:text-white placeholder:text-gray-400 dark:placeholder:text-[#9db8a8]/50" placeholder="Project Inquiry" type="text"/>
+</div>
+</label>
+<label class="flex flex-col group">
+<span class="text-gray-900 dark:text-white text-sm font-bold mb-2 ml-1">Message</span>
+<div class="relative">
+<span class="absolute left-4 top-5 text-gray-400 group-focus-within:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+</span>
+<textarea class="w-full min-h-40 pl-12 pr-4 py-4 bg-gray-50 dark:bg-[#111814] border border-gray-200 dark:border-[#3c5345] rounded-xl focus:border-primary dark:focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all text-gray-900 dark:text-white placeholder:text-gray-400 dark:placeholder:text-[#9db8a8]/50 resize-y" placeholder="Tell us about your project..."></textarea>
+</div>
+</label>
+<div class="pt-2">
+<button class="group w-full h-14 bg-primary text-[#111814] font-bold text-lg rounded-full hover:bg-[#25d36b] active:scale-[0.99] transition-all flex items-center justify-center gap-2 shadow-[0_4px_20px_rgba(48,232,122,0.3)] hover:shadow-[0_6px_25px_rgba(48,232,122,0.5)]" type="button">
+                            Send Message
+                            <span class="material-symbols-outlined transition-transform group-hover:translate-x-1 group-hover:-translate-y-1 text-xl">send</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<!-- Optional Map Section / Location -->
+<div class="mt-20">
+<div class="w-full h-[300px] rounded-3xl overflow-hidden relative">
+<img alt="Abstract cityscape representing New York at night" class="w-full h-full object-cover filter brightness-75 dark:brightness-50" data-alt="Abstract cityscape representing New York at night" data-location="New York City" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtwjZnIxcPjS-YtlbO3dVQio3c7EQ7vy3IdEmQL6vHNUmUy_pcKY3WnB80JWV4UIlgaW-ZvnqsKg11X6DcclQZrxMCdaTvmC5zJWjAilZWMg-52IbbBChcTo3N2Hkyn-cbAj74w2LVM5i9N0Mdh09rkSs5F1u_VCqqvFNi4HzLyIN3VUNSnFom1K1AgMDTs0oX7Rux50HfMhV1PFXw7MvNs-GkVF6nS0umhNW-6Uxk4XHjAvF8hHbAzkYCLVXseMESvx8P4tpKpv0i"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/80 to-transparent flex items-end p-8">
+<div class="flex items-center gap-3 text-white">
+<div class="p-2 bg-primary/20 backdrop-blur-md rounded-full border border-primary/40 text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<p class="font-bold text-lg leading-tight">Based in Egypt, cairo</p>
+<p class="text-sm text-gray-300">Serving clients worldwide</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="border-t border-[#29382f] bg-background-light dark:bg-background-dark py-12 px-6">
+<div class="max-w-[1280px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-3 text-gray-900 dark:text-white">
+<div class="size-6 text-primary">
+<svg class="w-full h-full" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-sm font-semibold">MindUp © 2024</span>
+</div>
+<div class="flex gap-8">
+<a class="text-sm text-gray-500 hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-sm text-gray-500 hover:text-primary transition-colors" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</body></html>
