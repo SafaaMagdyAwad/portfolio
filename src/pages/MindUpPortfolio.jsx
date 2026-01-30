@@ -7,7 +7,7 @@ export default function MindUpPortfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState('ar');
 
   // Use a ref for the form for emailjs
   const formRef = useRef();
